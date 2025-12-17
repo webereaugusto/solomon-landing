@@ -82,7 +82,7 @@ const ValueProposition = () => {
   const isInView = useInView(titleRef, { once: true, margin: '-100px' })
 
   return (
-    <section className="py-24 lg:py-32 bg-mineral relative overflow-hidden">
+    <section id="diferenciais" className="py-24 lg:py-32 bg-mineral relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
         {/* Section header */}
         <div ref={titleRef} className="text-center mb-16 lg:mb-20">

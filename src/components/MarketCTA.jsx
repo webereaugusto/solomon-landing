@@ -47,7 +47,7 @@ const MarketCTA = () => {
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
 
   return (
-    <section ref={ref} className="py-24 lg:py-32 bg-navy relative overflow-hidden">
+    <section id="mercado" ref={ref} className="py-24 lg:py-32 bg-navy relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-[0.03]">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">

@@ -6,6 +6,7 @@ import Methodology from './components/Methodology'
 import Trust from './components/Trust'
 import CallToAction from './components/CallToAction'
 import MarketCTA from './components/MarketCTA'
+import Triggers from './components/Triggers'
 import Success from './components/Success'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
@@ -20,8 +21,9 @@ function App() {
         <About />
         <Methodology />
         <CallToAction />
-        <Trust />       
+        <Trust />
         <MarketCTA />
+        <Triggers />
         <Success />
       </main>
       <Footer />
@@ -31,4 +33,3 @@ function App() {
 }
 
 export default App
-

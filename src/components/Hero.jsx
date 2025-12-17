@@ -13,7 +13,7 @@ const Hero = () => {
   const y = useTransform(scrollYProgress, [0, 1], ['0%', '20%'])
 
   return (
-    <section ref={ref} className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="inicio" ref={ref} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 

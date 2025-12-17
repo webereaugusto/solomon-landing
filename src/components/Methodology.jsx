@@ -109,7 +109,7 @@ const Methodology = () => {
   const isInView = useInView(titleRef, { once: true, margin: '-100px' })
 
   return (
-    <section className="py-24 lg:py-32 bg-mineral relative overflow-hidden">
+    <section id="metodologia" className="py-24 lg:py-32 bg-mineral relative overflow-hidden">
       {/* Accent lines */}
       <div className="absolute left-0 top-1/4 w-1/3 h-px bg-gradient-to-r from-gold/20 to-transparent" />
       <div className="absolute right-0 bottom-1/4 w-1/3 h-px bg-gradient-to-l from-gold/20 to-transparent" />

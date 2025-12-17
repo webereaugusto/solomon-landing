@@ -35,12 +35,12 @@ const Footer = () => {
             <h4 className="font-serif text-lg text-white mb-6">Contato Corporativo</h4>
             <div className="space-y-4">
               <a 
-                href="mailto:diretoria@solomon.com.br" 
+                href="mailto:solomon-empreendimentos@gmail.com" 
                 className="flex items-start gap-3 text-stone/70 hover:text-gold 
                            transition-colors duration-300 group"
               >
                 <Mail className="w-5 h-5 mt-0.5 text-gold/60 group-hover:text-gold" strokeWidth={1.5} />
-                <span className="font-sans text-sm">diretoria@solomon.com.br</span>
+                <span className="font-sans text-sm">solomon-empreendimentos@gmail.com</span>
               </a>
               <a 
                 href="https://wa.me/5511999182008" 

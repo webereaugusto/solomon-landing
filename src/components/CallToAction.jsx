@@ -15,7 +15,7 @@ const CallToAction = () => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2873&auto=format&fit=crop"
+          src="/bg2b.webp"
           alt="Oportunidade"
           className="w-full h-full object-cover"
         />
