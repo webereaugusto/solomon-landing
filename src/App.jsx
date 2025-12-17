@@ -19,8 +19,8 @@ function App() {
         <ValueProposition />
         <About />
         <Methodology />
-        <Trust />
         <CallToAction />
+        <Trust />       
         <MarketCTA />
         <Success />
       </main>
