@@ -60,10 +60,23 @@ const Footer = () => {
             <h4 className="font-serif text-lg text-white mb-6">Endereço</h4>
             <div className="flex items-start gap-3 text-stone/70">
               <MapPin className="w-5 h-5 mt-0.5 text-gold/60 flex-shrink-0" strokeWidth={1.5} />
-              <address className="font-sans text-sm not-italic leading-relaxed">
-                São Paulo - SP<br />
-                Brasil
-              </address>
+              <div>
+                <address className="font-sans text-sm not-italic leading-relaxed">
+                  Av. Brg. Faria Lima, 1572<br />
+                  Sala 1022 - Ed. Barão de Rothschild<br />
+                  Jardim Paulistano, São Paulo - SP<br />
+                  CEP 01451-917
+                </address>
+                <a 
+                  href="https://www.google.com/maps/search/?api=1&query=Avenida+Brigadeiro+Faria+Lima+1572+Jardim+Paulistano+São+Paulo+SP+01451-917"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 mt-2 text-gold/70 hover:text-gold 
+                             text-xs font-sans transition-colors duration-300"
+                >
+                  Ver no Google Maps →
+                </a>
+              </div>
             </div>
           </div>
 

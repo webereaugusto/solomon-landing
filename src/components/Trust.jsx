@@ -238,8 +238,9 @@ const Trust = () => {
         >
           <blockquote className="font-serif text-2xl lg:text-3xl text-navy/80 italic 
                                  max-w-3xl mx-auto leading-relaxed">
-            "A maior herança que você pode deixar para sua família não é apenas financeira — 
-            é a <span className="text-gold not-italic font-medium">tranquilidade</span> de um futuro seguro."
+            "A maior herança não está apenas no valor da terra, mas na{' '}
+            <span className="text-gold not-italic font-medium">tranquilidade</span> de um futuro seguro, 
+            bem planejado e protegido de conflitos."
           </blockquote>
           <div className="mt-6 w-12 h-px bg-gold mx-auto" />
           <p className="mt-4 font-sans text-xs text-stone tracking-[0.2em] uppercase">

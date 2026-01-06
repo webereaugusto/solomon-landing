@@ -59,7 +59,7 @@ const CallToAction = () => {
           className="font-sans text-lg md:text-xl text-white/80 max-w-2xl mx-auto mb-10 
                      leading-relaxed"
         >
-          Cada dia que passa é uma oportunidade perdida. Proprietários como você já estão 
+          Proprietários como você já estão 
           colhendo os frutos de parcerias sólidas. <strong className="text-white">Dê o primeiro passo hoje</strong> e 
           comece a construir o futuro que sua família merece.
         </motion.p>
