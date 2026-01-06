@@ -1,0 +1,39 @@
+# robots.txt para Solomon Empreendimentos
+# https://solomonloteamentos.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://solomonloteamentos.com/sitemap.xml
+
+# Otimização para bots principais
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Bloquear bots de scraping indesejados
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Crawl-delay para ser gentil com o servidor
+User-agent: *
+Crawl-delay: 1
+
