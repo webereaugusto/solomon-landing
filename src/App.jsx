@@ -3,6 +3,8 @@ import Hero from './components/Hero'
 import ValueProposition from './components/ValueProposition'
 import About from './components/About'
 import Methodology from './components/Methodology'
+import Partnership from './components/Partnership'
+import PartnershipCTA from './components/PartnershipCTA'
 import Trust from './components/Trust'
 import CallToAction from './components/CallToAction'
 import MarketCTA from './components/MarketCTA'
@@ -20,6 +22,8 @@ function App() {
         <ValueProposition />
         <About />
         <Methodology />
+        <Partnership />
+        <PartnershipCTA />
         <CallToAction />
         <Trust />
         <MarketCTA />
