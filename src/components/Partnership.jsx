@@ -23,8 +23,8 @@ const Partnership = () => {
     },
     {
       icon: Trophy,
-      title: 'Track Record',
-      description: '+250 projetos entregues com excelência em Campinas e região'
+      title: 'Expertise Comprovada',
+      description: '+50 anos de experiência e 250+ projetos entregues com excelência'
     }
   ]
 
@@ -84,7 +84,7 @@ const Partnership = () => {
             className="font-sans text-white/80 text-base md:text-lg max-w-3xl mx-auto leading-relaxed"
           >
             A Solomon se une ao <strong className="text-white">Grupo Angelina</strong>, referência em infraestrutura pesada 
-            com mais de <strong className="text-gold">12 anos de mercado</strong> e <strong className="text-gold">250+ projetos entregues</strong>. 
+            composta por profissionais com mais de <strong className="text-gold">50 anos de experiência</strong> no setor e <strong className="text-gold">250+ projetos entregues</strong>. 
             Essa parceria estratégica garante que seu loteamento seja desenvolvido com a solidez de quem domina cada etapa.
           </motion.p>
         </div>
